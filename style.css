@@ -12,8 +12,16 @@ html, body
     font-size: 110%;
     width: 100%;
     height: 100%;
-    font-family: Hyundai Sans Head;
+    font-family: Hyundai Sans Head Office;
     background: #F3F3F3;
+}
+p
+{
+    font-family: Hyundai Sans Head;
+}
+h3
+{
+    font-family: Hyundai Sans Head;
 }
 img
 {

@@ -2,7 +2,7 @@
 {
     .main_block_txt h1 {
         top: 240px;
-        font-size: 57px;
+        font-size: 52px;
         line-height: 66px;
     }
     .main_block_txt p {
@@ -21,7 +21,7 @@
 {
     .main_block_txt h1 {
         top: 221px;
-        font-size: 50px;
+        font-size: 47px;
         line-height: 71px;
         max-width: 55%;
     }
@@ -42,7 +42,7 @@
 {
     .main_block_txt h1 {
         top: 218px;
-        font-size: 48px;
+        font-size: 44px;
         line-height: 66px;
         max-width: 55%;
     }
@@ -92,7 +92,7 @@
 
     .main_block_txt h1 {
         top: 178px;
-        font-size: 38px;
+        font-size: 37px;
         line-height: 57px;
         max-width: 55%;
     }
@@ -212,7 +212,7 @@
 
     .main_block_txt h1 {
         top: 151px;
-        font-size: 25px;
+        font-size: 26px;
         line-height: 40px;
         max-width: 80%;
     }
@@ -392,10 +392,10 @@
     }
 
     .main_block_txt h1 {
-        top: 141px;
-        font-size: 26px;
+        top: 120px;
+        font-size: 25px;
         line-height: 37px;
-        max-width: 80%;
+        max-width: 82%;
     }
     
     .main_block_txt p {
@@ -499,7 +499,7 @@
 
     .main_block_txt h1 {
         top: 130px;
-        font-size: 23px;
+        font-size: 21px;
         line-height: 37px;
         max-width: 90%;
     }
@@ -610,7 +610,7 @@
 
     .main_block_txt h1 {
         top: 125px;
-        font-size: 20px;
+        font-size: calc(7px + 3vw);
         line-height: 37px;
         max-width: 90%;
     }
@@ -680,7 +680,7 @@
     }
     .header ul li h3
     {
-        font-size: 14px;
+        font-size: 12px;
     }
     .button {
         background: none;
@@ -724,8 +724,8 @@
 
 
     .main_block_txt h1 {
-        top: 115px;
-        font-size: 21px;
+        top: 130px;
+        font-size: calc(7px + 4vw);
         line-height: 33px;
         max-width: 90%;
     }
@@ -782,7 +782,14 @@
         font-size: calc(1px + 3vw);
     }
 }
-
+@media (min-width: 768px) and (max-width: 886px){
+    .main_block_txt h1 {
+        font-size: 27px;
+    }
+    .main_block_txt p {
+        top: 272px;
+    }
+}
 @media (max-width: 768px){
     .accent
     {
